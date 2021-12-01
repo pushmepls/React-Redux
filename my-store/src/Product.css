@@ -1,0 +1,187 @@
+/* products */
+.products{
+    max-width:1440px;
+    width: 80%;  
+    margin: 0 auto;  
+}
+
+.price {
+    padding-top: 20px;
+}
+
+.price,.title,.description{
+    text-align: left;
+    color: #a5806d;
+    font-size: 16px;
+    font-family: 'open sans';
+}
+.title{
+    height:50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    margin: 0;
+}
+.price{
+    z-index: -1;
+    font-weight: 600;
+}
+.addtoCart{
+    width:100%;
+}
+
+.cell{
+    float:left;
+    display: block;
+    width: 24%;
+    height: fit-content;
+    line-height: 25px;
+    margin: 10px 0.5%;
+    border: 1px solid #ededed;
+    
+    color: black;
+    overflow: hidden;
+
+}
+
+.cell>.product-list>div{position: relative;}
+
+.rating>span>svg{
+    vertical-align: baseline;
+}
+
+.rating,.count{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 15px;
+    padding: 0 5px;
+}
+
+.count{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.rating{
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.zoom{
+    overflow: hidden;
+    
+}
+
+.zoom:hover {
+    transition: 1.2 1;
+}
+
+
+.product-list {
+    text-decoration: none;
+}
+.product-img{
+    padding-top: 10px;
+    width: 100px;
+    height: 160px;
+}
+/* @media screen (max-width: 320px ) { 
+    .hidden{
+        display: none;
+    }
+} */
+.hidden{
+    display: unset;
+}
+.description{
+    display: none;
+}
+.Skeleton-loader{
+    width: 80%;
+    margin: 0 auto; 
+}
+.Skeleton-loader > div{
+    margin: 10px 0.5%;
+    float: left;
+}
+.Skeleton-loader > div > span:first-child{
+    margin: 0 0px 5px 0px;
+}
+.Skeleton-loader > div > span:last-child{
+    margin: 6px 0 0 0;
+}
+
+@media screen and (max-width: 768px ) { 
+    .hidden{
+        display: none;
+    }
+    .cell{
+        width: 32.3333%;
+        margin: 10px 0,5%;
+    }
+    #load4,#load3,#load2,#load1,#load5,#load6{
+        width: 32.3333%;
+    } 
+    #load7,#load8{
+        display: none;  
+    }
+}
+@media screen and (max-width: 500px ) {
+    .rating{
+        vertical-align: middle;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    .count{
+        position: absolute;
+        bottom: -17px;
+        left: 10px;
+        right: unset;
+    }
+}
+@media screen and (max-width: 485px ){ 
+    .hidden{
+        display: none;
+    }
+    .cell{
+        width: 49%;
+        margin: 10px 0,5%;
+    }
+    #load8,#load7,#load6,#load5{
+        display: none;
+    }
+    #load4,#load3,#load2,#load1{
+        width: 49%;
+    } 
+    .rating{
+        vertical-align: middle;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    .count{
+        position: absolute;
+        bottom: -17px;
+        left: 10px;
+        right: unset;
+    }
+}
+@media screen and (max-width: 320px ) { 
+    .hidden{
+        display: none;
+    }
+    .cell{
+        width: 100%;
+        margin: 10px 0;
+    }
+    #load8,#load7,#load6,#load5,#load4,#load3{
+        display: none;
+    }    
+    #load1,#load2{
+        width: 100%;
+    }
+}
