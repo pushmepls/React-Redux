@@ -1,0 +1,33 @@
+.detail-link{
+    text-decoration: none;
+    color: black;
+}
+.link p:last-child {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+.link {
+    display: flex;
+    flex-wrap: wrap;
+}
+.link p {
+    font-weight: 600;
+}
+.productdetail .cell,.productdetail .cell .count,.productdetail .cell .rating{
+    all: initial;
+}
+.productdetail .cell .description{
+    display: block;
+}
+.productdetail .cell .product-list div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.productdetail .cell .product-list div img{
+    width: 100%;
+    height: unset;
+}
