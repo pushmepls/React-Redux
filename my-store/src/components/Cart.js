@@ -3,7 +3,7 @@ import { useSelector } from "react-redux"
 import { useDispatch } from "react-redux"
 import productsAPI from "../data/productAPI";
 import { fetchCartproducts } from "../features/cartSlice"
-import '../CartItem.css' 
+import '../style/CartItem.css' 
 
 export default function Cart({items,cartDetails}){
     const [product, setProduct] = useState(null);

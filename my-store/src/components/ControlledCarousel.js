@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Shopping from './theshoppingmille.jpg'
 import BlackfridayImg from './black-friday-sale-banner.jpg'
 import Shopwatch from './ShopWatch.jpeg'
-import '../ControlledCarousel.css'
+import '../style/ControlledCarousel.css'
 
 export default function ControlledCarousel() {
     // const [index, setIndex] = useState(0);

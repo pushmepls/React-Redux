@@ -4,7 +4,7 @@ import React, {useEffect, useState} from 'react'
 
 import { useDispatch, useSelector } from 'react-redux'
 import { logout } from '../features/userSlice'
-import '../NavHead.css'
+import '../style/NavHead.css'
 import { fetchCart, logOutCart, logoutCart } from '../features/cartSlice'
 //import {fetchLocal} from '../features/userSlice'
 import { Box } from '@mui/system'

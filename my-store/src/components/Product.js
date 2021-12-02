@@ -1,4 +1,4 @@
-import "../Product.css";
+import "../style/Product.css";
 import { NavLink } from "react-router-dom";
 import { StarOutlined } from "@ant-design/icons";
 import { useDispatch, useSelector } from "react-redux";
@@ -7,7 +7,6 @@ import { Add, Remove } from "@material-ui/icons";
 import { Box, Button } from "@material-ui/core";
 import {
   addNewProduct,
-  addProduct,
   createNewCart,
 } from "../features/cartSlice";
 import { useState } from "react";

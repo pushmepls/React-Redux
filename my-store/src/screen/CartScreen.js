@@ -7,7 +7,7 @@ import Cart from "../components/Cart"
 import { deleteCart } from "../data/cartAPI"
 import { fetchCartproducts } from "../features/cartSlice"
 import ProductAPI from '../data/productAPI'
-import '../CartScreen.css' 
+import '../style/CartScreen.css' 
 
 export default function CartScreen(){
     

@@ -6,7 +6,7 @@ import ProductsByCategory from "./screen/ProductsByCategory";
 import NavHead from "./components/NavHead";
 import LoginScreen from "./screen/LoginScreen";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./style/App.css";
 import Cart from "./screen/CartScreen.js";
 
 import { useSelector } from "react-redux";

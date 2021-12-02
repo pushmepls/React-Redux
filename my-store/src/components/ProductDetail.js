@@ -1,6 +1,6 @@
 import { StarOutlined } from "@ant-design/icons"
 import { NavLink } from "react-router-dom"
-import '../ProductDetail.css'
+import '../style/ProductDetail.css'
 import Productdetail from './Product.js'
 export default function Product(props) {
     console.log(props)

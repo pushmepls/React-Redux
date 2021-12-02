@@ -1,7 +1,7 @@
 import { Facebook, Instagram, MailOutlineOutlined, Phone, Pinterest, Room, Twitter } from "@material-ui/icons";
 import { Box } from "@mui/system";
 import { Link } from "react-router-dom";
-import '../Footer.css'
+import '../style/Footer.css'
 export default function Footer() {
     
     
